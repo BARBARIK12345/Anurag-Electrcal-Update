@@ -9,12 +9,19 @@ import {
   UnorderedList,
   Flex,
   Center,
+  Box,
 } from "@chakra-ui/react";
 
 import service from "../data/service";
 
 const Services = () => {
   return (
+    <Box mt="1rem" id="services">
+      <Center>
+        <Heading as={"h3"} size="xl">
+          Services
+        </Heading>
+      </Center>
     <Flex flexWrap={"wrap"}>
       {service.map(({ name, img, list }, index) => (
         <Card
@@ -65,6 +72,7 @@ const Services = () => {
         </Card>
       ))}
     </Flex>
+    </Box>
   );
 };
 

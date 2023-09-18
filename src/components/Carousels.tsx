@@ -26,23 +26,25 @@ const Carousels = ({ imageArr }: Props) => {
   }, [index]);
 
   return (
-    <Box>
+    <Box mt={{ lg: "4rem", md: "6rem", sm: "3rem" }}
+    // pt={{ base: 0, lg: "10" }}
+    mb="3rem">
       <Center>
-        <Box width={"98%"} height={"30rem"}>
+        <Box width={"98%"} height={{ lg: "30rem", sm: "20rem", base: "15rem" }}>
           <Center>
             <Image
               ml={"1rem"}
               borderRadius={"1rem"}
               src={imageArr[index]}
               // objectFit="contain"
-              width={"75%"}
-              height={"30rem"}
+              width={{ md: "75%", sm: "100%" }}
+              height={{ lg: "30rem", sm: "20rem" }}
             ></Image>
           </Center>
         </Box>
       </Center>
       <Center>
-        <Box mt={2}>
+        <Box mt={5}>
           {imageArr.map((_item, index) => (
             <span
               key={index}
