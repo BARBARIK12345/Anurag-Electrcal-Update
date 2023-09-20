@@ -11,7 +11,7 @@ import Copyright from "./components/Copyright";
 function App() {
   return (
     <>
-      <Box p={10}>
+      <Box p={{ lg: 10, sm: 3 }} id="home">
         <NavBar />
         <Reveal>
         <Home />

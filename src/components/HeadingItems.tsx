@@ -6,7 +6,14 @@ const HeadingItems = () => {
   return (
     <>
       {navItems.map((nav) => (
-        <Heading key={nav} as="h3" size="lg" marginRight={5}>
+        <Heading 
+        _hover={{ color: "rgb(228 190 18)" }}
+        transition={"0.5s ease-in-out"}
+        key={nav} 
+        as="h3"
+         marginRight={5}
+         fontSize={{ lg: "1.5rem", md: "1rem" }}
+         cursor={'pointer'}>
           {nav}
         </Heading>
       ))}

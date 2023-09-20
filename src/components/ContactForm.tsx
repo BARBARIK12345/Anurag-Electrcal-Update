@@ -10,7 +10,7 @@ import {
 
 const ContactForm = () => {
   return (
-    <Box w={"50%"}>
+    <Box w={{base:'100%' ,md:"50%"}} fontSize={{base:'0.5rem'}}>
       <Center>
         <FormControl width={"65%"} textAlign={"center"}>
           <FormLabel mt={4}>Name</FormLabel>
