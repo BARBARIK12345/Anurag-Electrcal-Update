@@ -37,8 +37,8 @@ const Carousels = ({ imageArr }: Props) => {
               borderRadius={"1rem"}
               src={imageArr[index]}
               // objectFit="contain"
-              width={{ md: "75%", sm: "100%" }}
-              height={{ lg: "30rem", sm: "20rem" }}
+              width={{ md: "85%", lg: "75%", base: "100%" }}
+              height={{ lg: "30rem",   md: "20rem",    sm: "17rem",   base: "14.5rem"}}
             ></Image>
           </Center>
         </Box>

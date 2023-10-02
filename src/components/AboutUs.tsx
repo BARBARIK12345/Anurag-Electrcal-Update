@@ -19,7 +19,7 @@ function AboutUs({ details }: Props) {
   return (
     <Box mt="4rem" id="about">
       <Center>
-        <Heading mt={"2.5rem"} color={"white"}>
+        <Heading color={"rgb(228 190 18)"}>
           About Us
         </Heading>
       </Center>

@@ -18,7 +18,7 @@ const Services = () => {
   return (
     <Box mt="1rem" id="services">
       <Center>
-        <Heading as={"h3"} size="xl">
+        <Heading as={"h3"} size="xl" color="rgb(228 190 18)">
           Services
         </Heading>
       </Center>
