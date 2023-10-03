@@ -39,7 +39,8 @@ const HeadingItems = () => {
         as="h3"
          marginRight={5}
          fontSize={{ lg: "1.5rem", md: "1rem" }}
-         cursor={'pointer'}>
+         cursor={'pointer'}
+         color={"rgb(228 190 18)"}>
           {name}
         </Heading>
         </Link>

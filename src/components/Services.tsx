@@ -16,7 +16,7 @@ import service from "../data/service";
 
 const Services = () => {
   return (
-    <Box mt="1rem" id="services">
+    <Box mt={{ base: "3rem", md: "1rem" }} id="services">
       <Center>
         <Heading as={"h3"} size="xl" color="rgb(228 190 18)">
           Services
